@@ -1,6 +1,6 @@
 DrMr
 ====
-This is a fork of Nicklan's great hydrogen-finding-lv2 plugin. I made this fork to experiment with different controllers, specifically, to have multiple drmr-lv2 plugins corresponding to the "default" kit arrangment (official drmr and hydrogen kits) as well as others for my custom controllers pads.
+This is a fork of Nicklan's great hydrogen-finding-lv2 plugin. I made this fork to experiment with different controllers, specifically, to have multiple drmr-lv2 plugins corresponding to the "default" kit arrangment (official drmr and hydrogen kits) as well as others for my custom controllers pads. If you use this, it will allow you to add customized hydrogen drumkits to ~/.hydrogen/data/drumkits_std/ and load them under "DrMr2", but they will not be available under DrMr. I.e., I don't want to "pollute" DrMr and Hydrogen with a bunch of experimental kits specific to my MIDI controller, but I still want to load them into an lv2 host, seperate from DrMr and the original, intake kits there.
 
 DrMr is an LV2 sampler plugin.  It's main reason to exist is to give a way for lv2 hosts to have a built in drum synth that can save its entire state (i.e. no need to go out to external tools and no need to save extra state).  See the wiki (click the wiki tab above) for some screenshots.  DrMr currently supports the following:
 
@@ -78,11 +78,7 @@ You'll need the following libraries to build and install DrMr:
 
 DrMr scans the following directories for hydrogen drum kits:
 
-- /usr/share/hydrogen/data/drumkits/
-- /usr/local/share/hydrogen/data/drumkits/
-- /usr/share/drmr/drumkits/
-- ~/.hydrogen/data/drumkits/
-- ~/.drmr/drumkits/
+- ~/.hydrogen/data/drumkits_std/
 
 If you want to add others, add them to the default_drumkit_locations array at the top of drmr_hydrogen.c
 
