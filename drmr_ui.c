@@ -3,7 +3,7 @@
  * Copyright 2012 Nick Lanham <nick@afternight.org>
  *
  * Public License v3. source code is available at 
- * <http://github.com/nicklan/drmr>
+ * <http://github.com/faraway1nspace/drmr>
 
  * THIS SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
  * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
@@ -23,7 +23,7 @@
 #include "nknob.h"
 #include "lv2/lv2plug.in/ns/extensions/ui/ui.h"
 
-#define DRMR_UI_URI "http://github.com/nicklan/drmr#ui"
+#define DRMR_UI_URI "http://github.com/faraway1nspace/drmr#ui"
 
 typedef struct {
   LV2UI_Write_Function write;
