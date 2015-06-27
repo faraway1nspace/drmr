@@ -7,17 +7,17 @@
 @prefix epp: <http://lv2plug.in/ns/dev/extportinfo#> .
 @prefix ui:   <http://lv2plug.in/ns/extensions/ui#>.
 
-<http://github.com/nicklan/drmr>
+<http://github.com/faraway1nspace/drmr>
   a lv2:InstrumentPlugin, lv2:Plugin;
   lv2:binary <drmr.so>;
-  doap:name "DrMr Sampler";
+  doap:name "DrMr2 Sampler Std";
   doap:maintainer [
-	foaf:name "Nick Lanham" ;
+	foaf:name "Robert Rankin" ;
 	foaf:homepage <http://github.com/nick/drmr/wiki> ;
-	foaf:mbox <nick@afternight.org>
+	foaf:mbox <robertw.rankin@gmail.com>
   ] ;
   doap:license <http://usefulinc.com/doap/licenses/gpl>;
-  ui:ui <http://github.com/nicklan/drmr#ui> ;
+  ui:ui <http://github.com/faraway1nspace/drmr#ui> ;
   lv2:port [
     a ev:EventPort, lv2:InputPort;
     lv2:index 0;
@@ -917,6 +917,6 @@
   ]
 .
 
-<http://github.com/nicklan/drmr#ui>
+<http://github.com/faraway1nspace/drmr#ui>
   a ui:GtkUI ;
   ui:binary <drmr_ui.so> .

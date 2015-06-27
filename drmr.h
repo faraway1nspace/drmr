@@ -3,7 +3,7 @@
  * Copyright 2012 Nick Lanham <nick@afternight.org>
  *
  * Public License v3. source code is available at 
- * <http://github.com/nicklan/drmr>
+ * <http://github.com/faraway1nspace/drmr>
 
  * THIS SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
  * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
@@ -63,7 +63,7 @@ typedef struct {
 
 // lv2 stuff
 
-#define DRMR_URI "http://github.com/nicklan/drmr"
+#define DRMR_URI "http://github.com/faraway1nspace/drmr"
 #define GAIN_MIN -60.0f
 #define GAIN_MAX 6.0f
 

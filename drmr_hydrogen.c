@@ -3,7 +3,7 @@
  * Copyright 2012 Nick Lanham <nick@afternight.org>
  *
  * Public License v3. source code is available at 
- * <http://github.com/nicklan/drmr>
+ * <http://github.com/faraway1nspace/drmr>
 
  * THIS SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
  * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
