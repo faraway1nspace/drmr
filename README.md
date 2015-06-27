@@ -1,5 +1,6 @@
 DrMr
 ====
+This is a fork of Nicklan's great hydrogen-finding-lv2 plugin. I made this fork to experiment with different controllers, specifically, to have multiple drmr-lv2 plugins corresponding to the "default" kit arrangment (official drmr and hydrogen kits) as well as others for my custom controllers pads.
 
 DrMr is an LV2 sampler plugin.  It's main reason to exist is to give a way for lv2 hosts to have a built in drum synth that can save its entire state (i.e. no need to go out to external tools and no need to save extra state).  See the wiki (click the wiki tab above) for some screenshots.  DrMr currently supports the following:
 
