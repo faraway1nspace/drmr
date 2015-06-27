@@ -40,11 +40,7 @@
  * will be expanded, ones in the middle will be left in place.
  */
 static char* default_drumkit_locations[] = {
-  "/usr/share/hydrogen/data/drumkits/",
-  "/usr/local/share/hydrogen/data/drumkits/",
-  "/usr/share/drmr/drumkits/",
-  "~/.hydrogen/data/drumkits/",
-  "~/.drmr/drumkits/",
+  "~/.hydrogen/data/drumkits_std/",
   NULL
 };
 
