@@ -1,7 +1,7 @@
-#CMake file for DrMr
+#CMake file for DrMr2
 
 cmake_minimum_required(VERSION 2.6)
-project (DrMr2)
+project (DrMr)
 
 set(LV2_INSTALL_DIR ~/.lv2 CACHE PATH "Specifies where the LV2 libraries should be installed")
 set(CMAKE_C_FLAGS "-Wall")
